@@ -1,4 +1,4 @@
-package com.inherit.test01;
+package com.classtest.test01;
 
 public class Run {
 	public static void main(String[] args) {

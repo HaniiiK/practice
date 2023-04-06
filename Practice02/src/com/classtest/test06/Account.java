@@ -27,14 +27,18 @@ public class Account {
 		return this.balance;
 	}
 	public long withdraw(long amount) {
+		if(amount>this.balance) {
+			System.out.print(amount+"원 인출 불가. 인출 상한 금액은 잔액까지. 보유잔액:");
+			return this.balance;
+		}
 		this.balance = this.balance-amount;
 		return this.balance;
 	}
 	
-	public static void main(String[] args) {
-		Account ac = new Account("kim", 15000000);
-		System.out.println(ac.getBalance());
-		System.out.println(ac.deposit(60000));
-		System.out.println(ac.withdraw(60000));
-	}
+//	public static void main(String[] args) {
+//		Account ac = new Account("kim", 15000);
+//		System.out.println(ac.getBalance());
+//		System.out.println(ac.deposit(10000));
+//		System.out.println(ac.withdraw(30000));
+//	}
 }

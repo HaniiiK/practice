@@ -1,4 +1,4 @@
-package com.inherit.test05;
+package com.classtest.test05;
 
 public class SalaryMan {
 	public int salary = 1000000;

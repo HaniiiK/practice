@@ -1,4 +1,4 @@
-package com.inherit.test03;
+package com.classtest.test03;
 
 public class Circle {
 	public double radius;
