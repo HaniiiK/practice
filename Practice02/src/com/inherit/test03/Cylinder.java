@@ -28,9 +28,7 @@ public class Cylinder {
 	}
 
 	public static void main(String[] args) {
-		Circle c = new Circle(2.8);
-		double height = 5.6;
-		Cylinder cy = new Cylinder(c, height);
+		Cylinder cy = new Cylinder(new Circle(2.8), 5.6);
 		
 		System.out.println(cy.getVolume());
 	}
