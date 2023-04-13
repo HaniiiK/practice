@@ -1,4 +1,4 @@
-package com.day07.silsub.test01;
+package com.day07.silsub;
 
 import java.util.Arrays;
 import java.util.Scanner;
