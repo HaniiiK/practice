@@ -18,10 +18,8 @@ public class HV {
 			Entry<String, String> ent = iter.next();
 			v.add(ent.getKey()+" "+ent.getValue());
 		}
-		
 		return v;
 	}
-	
 	
 	public static void main(String[] args) {
 		HashMap<String, String> h = new HashMap<String, String>();
@@ -32,8 +30,5 @@ public class HV {
 		for(int n=0; n<v.size(); n++) {
 			System.out.println(v.get(n));
 		}
-		
 	}
-	
-
 }
