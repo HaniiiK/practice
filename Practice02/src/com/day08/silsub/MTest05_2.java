@@ -64,8 +64,9 @@ public class MTest05_2 {
 		Iterator<Entry<String, Student>> iter = entrySet.iterator();
 		
 		while(iter.hasNext()) {
-			String key = iter.next().getKey();
-			Student value = iter.next().getValue();
+			Entry<String, Student> ent = iter.next();
+			String key = ent.getKey();
+			Student value = ent.getValue();
 			System.out.println("--------------------");
 			System.out.println("이름: "+key);
 			System.out.println("학과: "+value.getMajor());
